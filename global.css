@@ -1,0 +1,55 @@
+:root {
+  --white: #ffffff;
+  --blue: #016bc1;
+  --black: #000000;
+}
+
+.background-blue {
+  background-color: var(--blue);
+  width: 909px;
+  height: 1286px;
+}
+
+.main-container {
+  overflow: hidden;
+  position: relative;
+  width: 909px;
+  height: 1286px;
+}
+
+.page-number {
+  left: 847px;
+  bottom: 105px;
+  font-size: 18px;
+  font-family: 'AcuminPro-Bold', sans-serif;
+  position: absolute;
+  user-select: none;
+  line-height: 1.5;
+  color: var(--blue);
+}
+
+.paragraph {
+  color: var(--white);
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+.rotated-text-left {
+  transform: rotate(270deg);
+}
+
+.rotated-text-right {
+  transform: rotate(90deg);
+}
+
+@font-face {
+  font-family: 'AcuminPro-Bold';
+  src: url('fonts/AcuminPro-Bold_3c.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'FuturaPT-ExtraBold';
+  src: url('fonts/FuturaPT-ExtraBold_3d.woff') format('woff');
+}

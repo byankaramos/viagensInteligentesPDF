@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main-photo {
+  position: absolute;
+  right: 0;
+  top: 54px;
+  bottom: 54px;
+}
+
+.logo {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.city-name-title {
+  left: 233.2px;
+  bottom: 55.9px;
+  font-size: 144px;
+  letter-spacing: 2.54px;
+  transform-origin: bottom left;
+  font-family: 'FuturaPT-ExtraBold', sans-serif;
+  color: var(--white);
+  position: absolute;
+  user-select: none;
+  line-height: 1.5;
+}
+
+@page {
+  size: A4;
+  margin: 0;
+}
+
+@media print {
+  html,
+  body {
+    width: 210mm;
+    height: 297mm;
+  }
+}
