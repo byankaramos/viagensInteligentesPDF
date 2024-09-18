@@ -1,0 +1,36 @@
+.section-title {
+  position: relative;
+  left: 730px;
+  font-size: 73px;
+  color: var(--blue);
+  transform-origin: bottom left;
+  width: 450px;
+}
+
+.about-description {
+  margin-left: 50px;
+  color: var(--black);
+  width: 620px;
+  white-space: pre-line;
+  position: absolute;
+  width: 550px;
+  top: 10px;
+  text-indent: 40px;
+}
+
+.about-geography {
+  top: 100px;
+  width: 800px;
+  margin-left: 50px;
+  position: relative;
+  color: var(--black);
+}
+
+.image-aboutUs {
+  position: absolute;
+  bottom: 0;
+}
+
+.image-destination {
+  margin-top: 30px;
+}

@@ -4,6 +4,12 @@
   --black: #000000;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 .background-blue {
   background-color: var(--blue);
   width: 909px;
@@ -17,6 +23,21 @@
   height: 1286px;
 }
 
+/* Textos */
+p {
+  font-family: 'AcuminPro-Regular', sans-serif;
+  font-size: 18px;
+  text-align: justify;
+  line-height: 1.5;
+  word-spacing: 2.66px;
+}
+
+h1 {
+  letter-spacing: 0.15px;
+  font-family: 'AcuminPro-Bold', sans-serif;
+  z-index: 2;
+}
+
 .page-number {
   left: 847px;
   bottom: 105px;
@@ -28,14 +49,6 @@
   color: var(--blue);
 }
 
-.paragraph {
-  color: var(--white);
-}
-
-.hidden {
-  visibility: hidden;
-}
-
 .rotated-text-left {
   transform: rotate(270deg);
 }
@@ -44,6 +57,11 @@
   transform: rotate(90deg);
 }
 
+.hidden {
+  visibility: hidden;
+}
+
+/* Fontes */
 @font-face {
   font-family: 'AcuminPro-Bold';
   src: url('fonts/AcuminPro-Bold_3c.woff') format('woff');
@@ -52,4 +70,28 @@
 @font-face {
   font-family: 'FuturaPT-ExtraBold';
   src: url('fonts/FuturaPT-ExtraBold_3d.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'AcuminPro-Regular';
+  src: url('fonts/AcuminPro-Regular_1-.woff') format('woff');
+}
+
+@font-face {
+  font-family: AcuminPro-UltraBlack_27;
+  src: url('fonts/AcuminPro-UltraBlack_27.woff') format('woff');
+}
+
+/* Definições de impressão */
+@page {
+  size: A4;
+  margin: 0;
+}
+
+@media print {
+  html,
+  body {
+    width: 210mm;
+    height: 297mm;
+  }
 }
