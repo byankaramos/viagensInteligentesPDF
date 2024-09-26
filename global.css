@@ -21,6 +21,7 @@
   position: relative;
   width: 909px;
   height: 1286px;
+  user-select: none;
 }
 
 /* Textos */
