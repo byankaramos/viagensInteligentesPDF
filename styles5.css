@@ -1,0 +1,45 @@
+.background {
+  background-color: var(--blue);
+  width: 909px;
+  height: 520px;
+}
+
+.first-photo {
+  position: absolute;
+  top: 0;
+}
+
+.second-photo {
+  position: absolute;
+  margin-top: 16px;
+}
+
+.third-photo {
+  position: absolute;
+  margin-top: 16px;
+  height: 356px;
+  right: 0;
+}
+
+.fourth-photo {
+  position: absolute;
+  margin-top: 388px;
+}
+
+.fifth-photo {
+  position: absolute;
+  margin-top: 388px;
+  height: 367px;
+  width: 368px;
+  right: 0;
+}
+
+.paragraph {
+  left: 456px;
+  top: 50px;
+  right: 48px;
+  color: var(--white);
+  position: absolute;
+  line-height: 1.2;
+  word-spacing: 1.5px;
+}

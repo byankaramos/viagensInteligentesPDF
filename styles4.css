@@ -1,0 +1,42 @@
+.first-photo {
+  position: absolute;
+  top: 0;
+}
+
+.second-photo {
+  position: absolute;
+  top: 460px;
+  right: 0;
+}
+
+.third-photo {
+  position: absolute;
+  bottom: 0;
+}
+
+.first-paragraph {
+  left: 456px;
+  bottom: 1209px;
+  top: 50px;
+  right: 48px;
+  color: var(--white);
+  position: absolute;
+}
+
+.second-paragraph {
+  left: 56px;
+  bottom: 525px;
+  top: 505px;
+  right: 478px;
+  color: var(--white);
+  position: absolute;
+}
+
+.third-paragraph {
+  left: 486px;
+  bottom: 56px;
+  top: 974px;
+  right: 48px;
+  color: var(--white);
+  position: absolute;
+}
