@@ -1,0 +1,27 @@
+.first-image {
+  position: absolute;
+}
+
+.second-image {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.first-paragraph {
+  position: absolute;
+  top: 711px;
+  left: 58px;
+  right: 54px;
+  word-spacing: 1px;
+}
+
+.second-paragraph {
+  position: absolute;
+  top: 991px;
+  left: 55px;
+  right: 560px;
+  bottom: 336px;
+  word-spacing: 1px;
+  line-height: 1.3;
+}
