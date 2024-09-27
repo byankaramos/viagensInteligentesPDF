@@ -1,0 +1,11 @@
+.text-paragraph {
+  position: absolute;
+  color: var(--white);
+  line-height: 1.3;
+  top: 916px;
+  left: 55px;
+  right: 50px;
+  bottom: 70px;
+  letter-spacing: 0.05px;
+  word-spacing: 0.95px;
+}
